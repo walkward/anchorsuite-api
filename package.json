@@ -1,0 +1,19 @@
+{
+  "name": "anchorsuite-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud beta functions deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkward/anchorsuite-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walkward/anchorsuite-api/issues"
+  },
+  "homepage": "https://github.com/walkward/anchorsuite-api#readme"
+}
