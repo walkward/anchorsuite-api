@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "config": {
+    "gcloud_region": "us-central1"
+  },
   "scripts": {
-    "deploy": "gcloud beta functions deploy"
+    "deploy-getModel": "git add . ; git commit -m 'deployment $npm_packager_version' ; git push ; gcloud beta functions deploy getModel --source-url https://source.developers.google.com/p/anchorsuite/r/api --source-path /getModel --trigger-http"
   },
   "repository": {
     "type": "git",
