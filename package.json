@@ -7,7 +7,8 @@
     "gcloud_region": "us-central1"
   },
   "scripts": {
-    "deploy-getModel": "git add . ; git commit -m 'deployment $npm_packager_version' ; git push ; gcloud beta functions deploy getModel --source-url https://source.developers.google.com/p/anchorsuite/r/api --source-path /getModel --trigger-http"
+    "deploy-getModel": "git add . ; git commit -m 'deployment $npm_packager_version' ; git push ; gcloud beta functions deploy getModel --source-url https://source.developers.google.com/p/anchorsuite/r/api --source-path /getModel --trigger-http",
+    "test-getModel": "gcloud beta functions call getModel"
   },
   "repository": {
     "type": "git",
